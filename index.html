@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kahoot XLSX Generator</title>
+  </head>
+  <body>
+    <h1>Kahoot XLSX Generator</h1>
+    <p>Paste your JSON data below to convert it into a Kahoot XLSX document:</p>
+
+    <form action="/create-xlsx" method="POST">
+      <textarea
+        name="quizData"
+        placeholder='[{"question": "Which spreadsheet tools can read this sheet and export to xlsx format?", "answer1": "Excel", "answer2": "Google Docs", "answer3": "Numbers", "answer4": "LibreOffice", "timeLimit": 60, "correctAnswers": "1,2,3,4"}]'
+        required
+      ></textarea>
+      <button type="submit">Generate XLSX</button>
+    </form>
+  </body>
+</html>
