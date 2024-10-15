@@ -1,0 +1,139 @@
+{
+  "quiz": [
+    {
+      "question": "What command is used to install TypeScript as a development dependency?",
+      "options": [
+        "npm install typescript --save",
+        "npm install typescript --save-dev",
+        "npm install --typescript",
+        "yarn add typescript"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which property in tsconfig.json specifies the output directory?",
+      "options": ["outDir", "outputDirectory", "dist", "rootDir"],
+      "answer": 0
+    },
+    {
+      "question": "What target does TypeScript use for ES2020?",
+      "options": ["ES5", "ES6", "ES2020", "ESNext"],
+      "answer": 2
+    },
+    {
+      "question": "How can you allow JavaScript files in your TypeScript project?",
+      "options": [
+        "allowJs: true",
+        "checkJs: true",
+        "includeJs: true",
+        "allowJavascript: true"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What will happen if TypeScript encounters an error and emitOnError is set to false?",
+      "options": [
+        "Files will still be emitted.",
+        "No files will be emitted.",
+        "Errors will be ignored.",
+        "The compilation will succeed."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the TypeScript type of the variable 'let one = 64.55;'?",
+      "options": ["number", "string", "boolean", "undefined"],
+      "answer": 0
+    },
+    {
+      "question": "What type of variable is 'seven' after declaration?",
+      "options": ["number", "string", "undefined", "null"],
+      "answer": 2
+    },
+    {
+      "question": "What TypeScript feature allows defining the structure of an object?",
+      "options": ["Interface", "Class", "Type", "Enum"],
+      "answer": 0
+    },
+    {
+      "question": "What does the 'void' return type signify in TypeScript?",
+      "options": [
+        "Function returns no value.",
+        "Function returns any type.",
+        "Function must return a number.",
+        "Function must return a string."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In TypeScript, what symbol is used for optional properties in an interface?",
+      "options": ["?", "*", "!", ":"],
+      "answer": 0
+    },
+    {
+      "question": "How do you define a parameter that can accept multiple types?",
+      "options": [
+        "Using the | operator.",
+        "Using the & operator.",
+        "Using the ? operator.",
+        "Using the : operator."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What keyword is used to extend a class in TypeScript?",
+      "options": ["extends", "inherits", "implements", "super"],
+      "answer": 0
+    },
+    {
+      "question": "What type of variable is 'const dinnerTonight = mealPlanner(optionsAvailable);'?",
+      "options": ["string", "number", "void", "any"],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'constructor' method in a class?",
+      "options": [
+        "To initialize object properties.",
+        "To define methods.",
+        "To create static properties.",
+        "To inherit from another class."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What method is used to log information to the console?",
+      "options": ["log()", "print()", "console.output()", "console.log()"],
+      "answer": 3
+    },
+    {
+      "question": "How do you define a class method that can be accessed without creating an instance?",
+      "options": ["static", "public", "private", "protected"],
+      "answer": 0
+    },
+    {
+      "question": "What does the 'override' keyword do in TypeScript?",
+      "options": [
+        "It prevents method overriding.",
+        "It defines a new method.",
+        "It allows a derived class to provide a specific implementation of a method.",
+        "It marks methods as private."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which function creates a new object based on a constructor?",
+      "options": ["new", "create", "instance", "object"],
+      "answer": 0
+    },
+    {
+      "question": "What is the result of calling 'Math.floor()' in TypeScript?",
+      "options": [
+        "It rounds down a number.",
+        "It rounds up a number.",
+        "It converts a string to a number.",
+        "It generates a random number."
+      ],
+      "answer": 0
+    }
+  ]
+}
